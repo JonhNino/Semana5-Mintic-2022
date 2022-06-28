@@ -7,7 +7,7 @@ lista=[]
 def ordenamiento_burbuja(lista):
     for i in range(N-1):
         for j in range(i+1,N):
-            if lista[i]>lista[j]:
+            if lista[i]>lista[j]:#Si quiero de manera descente <
                 temp=lista[i]
                 lista[i]=lista[j]
                 lista[j]=temp

@@ -25,11 +25,13 @@ for i in range(N):
     lista_productos.append(producto)
     lista_precios.append(precio)
 #Imprimir Listas
+print("Listas Original")
 for i in range(N):
     print("Producto: ",lista_productos[i])
     print("Precio: ",lista_precios[i])
 lista_productos,lista_precios=ordenamiento_burbuja(lista_productos, lista_precios)
 #Imprimir Listas
+print("Listas Ordenadas")
 for i in range(N):
     print("Producto: ",lista_productos[i])
     print("Precio: ",lista_precios[i])
